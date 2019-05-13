@@ -1,0 +1,15 @@
+The ``doctest_example`` module
+======================
+
+Using ``doctest_example``
+-------------------
+
+This is an example text file in reStructuredText format.  First import
+``example`` from the ``doctest_example`` module:
+
+    >>> from doctest_example import example
+
+And you can simply use it by doing:
+
+    >>> example(2, 1)
+    1
